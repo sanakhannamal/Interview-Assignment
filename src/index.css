@@ -1,0 +1,47 @@
+
+body {
+  max-width: 1440px;
+  max-height: 2560px;
+  height: 100%;
+  background: #ebf0ff;
+  box-sizing: border-box;
+  margin: auto;
+  padding: 0;
+}
+
+/* app  */
+.appContainer {
+   display: flex;
+   max-width: 1201px;
+   max-height: 2477.07px;
+   margin: 60px 120px;
+   gap: 100px;
+   flex-direction: column;
+   
+ }
+
+ @media (max-width: 1200px) and (min-width: 1001px) { 
+  .appContainer {
+    max-width: 95%;
+    margin: 30px 60px;
+    gap: 70px;
+  }
+ }
+
+ @media (max-width: 1000px) {
+  .appContainer {
+    max-width: 90%;
+    margin: 20px 40px;
+    gap: 50px;
+  }
+ }
+
+ @media (max-width: 400px) {
+  .appContainer {
+    max-width: 85%;
+    margin: auto;
+    gap: 50px;
+  }
+ }
+
+
